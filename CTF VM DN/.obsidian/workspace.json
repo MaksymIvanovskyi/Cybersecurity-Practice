@@ -1,0 +1,204 @@
+{
+  "main": {
+    "id": "7f2789dd3949a7a6",
+    "type": "split",
+    "children": [
+      {
+        "id": "0e863a09c9745920",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a23b28fba3b7b0ce",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "description deathnote.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "description deathnote"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "b0b29b2837eb5fb7",
+    "type": "split",
+    "children": [
+      {
+        "id": "c1e6ce9c8b3fa286",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0db8e567168bdc91",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "c7c0155980e00c62",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "1965c5b8981f5975",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "708bcb606bc93de2",
+    "type": "split",
+    "children": [
+      {
+        "id": "df7f3da07fa750cc",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0d10ff73969991c9",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "description deathnote.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for description deathnote"
+            }
+          },
+          {
+            "id": "62440facad3dca28",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "description deathnote.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from description deathnote"
+            }
+          },
+          {
+            "id": "204cedfd022ea2c4",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "324d4a4e32aa3f06",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "216e32241d802403",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "description deathnote.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of description deathnote"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "a23b28fba3b7b0ce",
+  "lastOpenFiles": [
+    "DeathNote_vulnerabilities_en.md",
+    "DN_src/READMI.md",
+    "DN_src/Pasted image 20260721225804.png",
+    "description deathnote.md",
+    "DN_src/Pasted image 20260721225606.png",
+    "DN_src/Pasted image 20260721225427.png",
+    "DN_src/Pasted image 20260721225424.png",
+    "DN_src/Pasted image 20260721225419.png",
+    "DN_src/Pasted image 20260721225417.png",
+    "DN_src/Pasted image 20260721225257.png",
+    "DN_src/Pasted image 20260721225050.png",
+    "DN_src/Pasted image 20260721224921.png",
+    "DN_src/Pasted image 20260721224816.png",
+    "DeathNote_vulnerabilities_ua.md",
+    "DeathNote_MITRE_ua.md"
+  ]
+}
