@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OWASP TOP 10/JuiceShop/JuiceShopStart.md",
+                "file": "OWASP TOP 10/SQLInjections/A03InjectionSQLintro.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "JuiceShopStart"
+              "title": "A03InjectionSQLintro"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OWASP TOP 10/JuiceShop/JuiceShopStart.md",
+                "file": "OWASP TOP 10/SQLInjections/A03InjectionSQLintro.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for JuiceShopStart"
+              "title": "Backlinks for A03InjectionSQLintro"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OWASP TOP 10/JuiceShop/JuiceShopStart.md",
+                "file": "OWASP TOP 10/SQLInjections/A03InjectionSQLintro.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from JuiceShopStart"
+              "title": "Outgoing links from A03InjectionSQLintro"
             }
           },
           {
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OWASP TOP 10/JuiceShop/JuiceShopStart.md",
+                "file": "OWASP TOP 10/SQLInjections/A03InjectionSQLintro.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of JuiceShopStart"
+              "title": "Outline of A03InjectionSQLintro"
             }
           }
         ]
@@ -185,25 +185,27 @@
   },
   "active": "858a966a21b5333d",
   "lastOpenFiles": [
-    "OWASP TOP 10/HijackSession/image-5.png",
-    "OWASP TOP 10/HijackSession/image-4.png",
-    "OWASP TOP 10/HijackSession/image-3.png",
-    "OWASP TOP 10/HijackSession/image-2.png",
-    "OWASP TOP 10/HijackSession/image.png",
+    "OWASP TOP 10/JuiceShop/JuiceShopStart.md",
+    "OWASP TOP 10/JuiceShop/images/Pasted image 20260719180543.png",
+    "OWASP TOP 10/JuiceShop/images/Pasted image 20260719172707.png",
+    "OWASP TOP 10/JuiceShop/images/Pasted image 20260719142848.png",
+    "OWASP TOP 10/JuiceShop/images/Pasted image 20260719142349.png",
+    "OWASP TOP 10/JuiceShop/images/Pasted image 20260718161825.png",
+    "OWASP TOP 10/InsecureDirectObjectReference/IDOR1.md",
+    "OWASP TOP 10/InsecureDirectObjectReference/images/idor02.png",
+    "OWASP TOP 10/InsecureDirectObjectReference/images/idor01.png",
     "OWASP TOP 10/HijackSession/A01BrokenAccessControl_burpsuit.md",
+    "CTF VM CB/C0lddBox_guide.md",
+    "CTF VM CB/C0ldBoxOWASP.md",
+    "CTF VM CB/C0lddBox_vulnerabilities_ua.md",
+    "CTF VM CB/images/Pasted image 20260721234813.png",
+    "OWASP TOP 10/HijackSession/images/image-1.png",
+    "OWASP TOP 10/HijackSession/images/image-2.png",
+    "OWASP TOP 10/Security Logging Failures/Security Logging Failures.md",
     "CTF VM DN/description deathnote.md",
     "CTF VM DN/DeathNote_MITRE_ua.md",
-    "CTF VM CB/C0lddBox_guide.md",
-    "CTF VM CB/C0lddBox_vulnerabilities_ua.md",
     "CTF VM CB/C0lddBox_MITRE.md",
-    "CTF VM CB/Pasted image 20260721234813.png",
-    "CTF VM CB/C0lddBox/image-27.png",
-    "CTF VM CB/C0ldBoxOWASP.md",
-    "CTF VM CB/C0lddBox/image-30.png",
-    "CTF VM CB/C0lddBox/image-29.png",
     "CTF VM CB/C0lddBox/README.md",
-    "CTF VM CB/C0lddBox/image-31.png",
-    "CTF VM CB/C0lddBox/image-26.png",
     "CTF VM DN/DeathNote_OWASP_ua.md",
     "Suricata/Suricata IDS IPS.md"
   ]
