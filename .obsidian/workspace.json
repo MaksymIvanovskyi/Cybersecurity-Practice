@@ -1,0 +1,210 @@
+{
+  "main": {
+    "id": "6a4c812125a4e3b8",
+    "type": "split",
+    "children": [
+      {
+        "id": "87426ae92c399c80",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "858a966a21b5333d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "OWASP TOP 10/JuiceShop/JuiceShopStart.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "JuiceShopStart"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "5b1d5dfb05e3a54c",
+    "type": "split",
+    "children": [
+      {
+        "id": "90b5a3d95efa032a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3708c28e8360ce04",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "c1ff88f543f50259",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "ee6e49ac65ecca1c",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "9684ed2b6c869700",
+    "type": "split",
+    "children": [
+      {
+        "id": "f5e7fc64d721a3f5",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6edf047e5e06ba1f",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "OWASP TOP 10/JuiceShop/JuiceShopStart.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for JuiceShopStart"
+            }
+          },
+          {
+            "id": "2c239ef986a17e8b",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "OWASP TOP 10/JuiceShop/JuiceShopStart.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from JuiceShopStart"
+            }
+          },
+          {
+            "id": "4fddcee61e435a93",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "346bf9c61db1591a",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "d1c581aed1ee6a4f",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "OWASP TOP 10/JuiceShop/JuiceShopStart.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of JuiceShopStart"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "858a966a21b5333d",
+  "lastOpenFiles": [
+    "OWASP TOP 10/HijackSession/image-5.png",
+    "OWASP TOP 10/HijackSession/image-4.png",
+    "OWASP TOP 10/HijackSession/image-3.png",
+    "OWASP TOP 10/HijackSession/image-2.png",
+    "OWASP TOP 10/HijackSession/image.png",
+    "OWASP TOP 10/HijackSession/A01BrokenAccessControl_burpsuit.md",
+    "CTF VM DN/description deathnote.md",
+    "CTF VM DN/DeathNote_MITRE_ua.md",
+    "CTF VM CB/C0lddBox_guide.md",
+    "CTF VM CB/C0lddBox_vulnerabilities_ua.md",
+    "CTF VM CB/C0lddBox_MITRE.md",
+    "CTF VM CB/Pasted image 20260721234813.png",
+    "CTF VM CB/C0lddBox/image-27.png",
+    "CTF VM CB/C0ldBoxOWASP.md",
+    "CTF VM CB/C0lddBox/image-30.png",
+    "CTF VM CB/C0lddBox/image-29.png",
+    "CTF VM CB/C0lddBox/README.md",
+    "CTF VM CB/C0lddBox/image-31.png",
+    "CTF VM CB/C0lddBox/image-26.png",
+    "CTF VM DN/DeathNote_OWASP_ua.md",
+    "Suricata/Suricata IDS IPS.md"
+  ]
+}
