@@ -29,7 +29,9 @@
 ```sh
 sudo netdiscover -r 192.168.56.102/24
 ```
+
 ![Pasted image 20260721232200](images/Pasted%20image%2020260721232200.png)
+
 ***** Питання: яка з команд будк працювати швидче?
 sudo netdiscover
 або 
@@ -62,13 +64,16 @@ sudo nmap -sV --reason 192.168.56.103
 
 
 ![Pasted image 20260721232504](images/Pasted%20image%2020260721232504.png)
+
 ![Pasted image 20260721232719](images/Pasted%20image%2020260721232719.png)
+
 ### 3. Дослідження вебсервера
 
 У браузері відкриваємо http://192.168.56.103,  отримуємо:
 
 
 ![Pasted image 20260721232828](images/Pasted%20image%2020260721232828.png)
+
 Скористуємось **login** та отримуємо типове запрошення від **wordpress**:
 
 ![Pasted image 20260721232929](images/Pasted%20image%2020260721232929.png)
@@ -83,9 +88,12 @@ gobuster dir -u http://192.168.56.103/ -w /usr/share/wordlists/dirbuster/directo
 
 
 ![Pasted image 20260721233216](images/Pasted%20image%2020260721233216.png)
+
 Перевірка доступних посилань дає результат лише по останньому, то маємо
 такий результат:
+
 ![Pasted image 20260721233308](images/Pasted%20image%2020260721233308.png)
+
 Визначили трьох користувачів, далі потрібно більш детально дослідити вордпресс на наявність додаткової інформації.
 
 wpscan --url http://192.168.56.103/ -e
@@ -114,11 +122,13 @@ wpscan --url http://192.168.56.103/ -U c0ldd -P /usr/share/wordlists/rockyou.txt
 https://github.com/pentestmonkey/php-reverse-shell
 
 ![Pasted image 20260721235040](images/Pasted%20image%2020260721235040.png)
+
 Зазвичай, код для реверс-шелу може бути доданий або в шаблон "Footer", або в "404".
 То як раз і почнемо з "Footer".
 
 
 ![Pasted image 20260721235338](images/Pasted%20image%2020260721235338.png)
+
 Замінюємо код у "footer.php" на код з "php-reverse-shell.php",
 та додаємо кастомізацію.
 
@@ -147,7 +157,7 @@ nc -lvnp 3421
 python3 -c 'import pty; pty.spawn("/bin/bash")'
  Як результат отримуємо повноцінний командний рядок bash:
 
-![alt text](./C0lddBox/image-14.png)
+![image-14](./C0lddBox/image-14.png)
 
 
 ### 4. Підвищення привілеїв
@@ -156,10 +166,12 @@ python3 -c 'import pty; pty.spawn("/bin/bash")'
 
 
 ![Pasted image 20260722154725](images/Pasted%20image%2020260722154725.png)
+
 Передивляємось зміст файлу **wp-config.php** за допомогою утіліти **cat**:
 
 
 ![Pasted image 20260722155032](images/Pasted%20image%2020260722155032.png)
+
 Спробуємо зайти в сисетму під користовачем "c0dd" зі знайденим паролем:
 
 su c0ldd
@@ -168,6 +180,7 @@ su c0ldd
 
 
 ![Pasted image 20260722155616](images/Pasted%20image%2020260722155616.png)
+
 перейдемо до домашнього каталогу користувача та дослідемо його зміст, 
 та виведемо на термінал зміст файлу, що знайдено:
 
@@ -195,7 +208,7 @@ https://gtfobins.github.io/
 
 Небезпека полягає в тому, що якщо цьому бінарному файлу дозволено виконуватися від імені суперкористувача через **sudo**, він не скидає підвищені привілеї й може бути використаний для доступу до файлової системи, підвищення привілеїв або збереження привілейованого доступу.
 
-![sudo chmod](./C0lddBox/image-22.png)
+![image-22](./C0lddBox/image-22.png)
 
 Скористаємось цім методом, щоб змінити права доступу до файлу, який обмежений для користувача з низькими привілеями, і зробити його доступним для всіх користувачів.
 У нашому випадку файл, до якого потрібно отримати доступ, — це root-файл. Зробимо це за допомогою команди:
@@ -221,9 +234,11 @@ chmod 6777:
 
 
 ![Pasted image 20260722162145](images/Pasted%20image%2020260722162145.png)
+
 Декодуємо base64:
 
 ![Pasted image 20260722162330](images/Pasted%20image%2020260722162330.png)
+
 Переклад з іспанської: "Вітаємо, машину завершено!"
 
 
@@ -231,11 +246,11 @@ chmod 6777:
 
 Оскільки **root** доступа все ще не маємо, то перейдемо до наступного кроку.
 
-![vim1](./C0lddBox/image-25.png)
+![image-25](./C0lddBox/image-25.png)
 
 Запускаємо **vim** за допомогою **sudo**:
 
-![alt text](./C0lddBox/image-26.png)
+![image-26](./C0lddBox/image-26.png)
 
 Отримуємо **root** в **vim** 
 
@@ -248,14 +263,14 @@ chmod 6777:
 
 Знову користуємось порадами з сайту https://gtfobins.github.io/gtfobins/ftp/#sudo:
 
-![sudo ftp](./C0lddBox/image-30.png)
+![image-30](./C0lddBox/image-30.png)
 
 ```sh
 sudo ftp
 !/bin/bash
 ```
 
-![root ftp](./C0lddBox/image-31.png)
+![image-31](./C0lddBox/image-31.png)
 
 #### Вплив загрози:
 

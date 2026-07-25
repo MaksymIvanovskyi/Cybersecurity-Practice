@@ -111,6 +111,7 @@ UPDATE employees
 SET department = 'Sales' 
 WHERE first_name = 'Tobi' AND last_name = 'Barnett';
 ```
+
 ![Pasted image 20260716134234](images/Pasted%20image%2020260716134234.png)
 
 
@@ -483,4 +484,5 @@ Smith'; DROP TABLE access_log --
 **Наслідок:** Таблиця `access_log` перестає існувати. Адміністратори більше не зможуть побачити, хто і коли змінював зарплату, оскільки джерело цієї інформації (доступність даних) було знищено.
 
 В результаті ми виконали всі кроки в секції  **SQL injection intro**
+
 ![Pasted image 20260716135531](images/Pasted%20image%2020260716135531.png)
